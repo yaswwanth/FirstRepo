@@ -1,0 +1,434 @@
+.main{
+    overflow: hidden;
+}
+.header{
+    background-color: crimson;
+    border: 1px solid;
+    width: 99.5%;
+    height: 40px;
+}
+
+.header ul li {
+    color: beige;
+    display: inline-flex;
+    padding-left: 30px;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+.first{
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 250%;
+}
+
+.second{
+    position: absolute;
+    left: 100px;
+    top: 240px;
+    font-family: 'Peralta', cursive;
+    font-size: 400%;
+}
+
+.third{
+    position: absolute;
+    left: 100px;
+    top: 340px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+
+.fourth{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    left: 100px;
+    top: 375px;
+    font-size: 200%;
+}
+
+
+#list{
+    position: absolute;
+    left: 750px;
+    top: 5px;
+    
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+.img{
+    left: 770px;
+    top: 50px;
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    border-radius: 50%;
+}
+.container{
+    background-color: rgb(215, 233, 249);
+    width: 99.5%;
+    height: 3800px;
+    position: absolute;
+}
+
+.t1{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    color: rgb(9, 68, 70);
+    position: absolute;
+    top: 670px;
+    left: 700px;
+}
+
+
+.t1::before, .t1::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(180, 172, 10);
+    display: block;
+}
+
+#button{
+    padding: 8.5px;
+    position: absolute;
+    top: 480px;
+    left: -560px;
+    z-index: 9;
+    border-radius: 10px;
+    background-color: rgb(180, 172, 10);
+    margin: 5px;
+    
+}
+
+#button:hover{
+    background-color:crimson;
+}
+
+
+.img2{
+    position: absolute;
+    border: 2px solid;
+    top: 800px;
+    left: 160px;
+    z-index: 9;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+.about{
+    font-size: larger;
+    position: absolute;
+    top: 860px;
+    left: 700px;
+    font-family: 'Caveat', cursive;
+}
+
+.t2{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    color: rgb(9, 68, 70);
+    position: absolute;
+    top: -110px;
+    left: 725px;
+    z-index: 12;
+}
+
+.t2::before, .t2::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(180, 172, 10);
+    display: block;
+}
+
+.skills{
+    position: absolute;
+    top: 1450px;
+    border: 2px solid;
+    width: 99.8%;
+    height: 182px;
+    background-color:rgb(5, 71, 65);
+    z-index: 11;
+    display: inline;
+}
+
+.sk1{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    z-index: 13;
+    width: 100px;
+    height: 100px;
+}
+
+
+.sk2{
+    position: absolute;
+    top: 45px;
+    left: 145px;
+    z-index: 14;
+    width: 100px;
+    height: 100px;
+}
+
+.sk3{
+    position: absolute;
+    top: 39px;
+    left: 237px;
+    z-index: 14;
+    width: 187px;
+    height: 111px;
+}
+
+.sk4{
+    position: absolute;
+    top: 39px;
+    left: 400px;
+    z-index: 14;
+    width: 100px;
+    height: 100px;
+}
+
+.sk5{
+    position: absolute;
+    top: 27px;
+    left: 508px;
+    z-index: 14;
+    width: 135px;
+    height: 135px;
+}
+
+.sk6{
+    position: absolute;
+    top: 45px;
+    left: 665px;
+    z-index: 14;
+    width: 88px;
+    height: 100px;
+}
+
+.sk7{
+    position: absolute;
+    top: 39px;
+    left: 765px;
+    z-index: 14;
+    width: 135px;
+    height: 110px;
+}
+
+.sk8{
+    position: absolute;
+    top: 39px;
+    left: 910px;
+    z-index: 14;
+    width: 100px;
+    height: 100px;
+}
+
+.sk9{
+    position: absolute;
+    top: 39px;
+    left: 1048px;
+    z-index: 14;
+    width: 100px;
+    height: 100px;
+}
+
+.sk10{
+    position: absolute;
+    top: 39px;
+    left: 1190px;
+    z-index: 14;
+    width: 95px;
+    height: 100px;
+}
+
+.sk11{
+    position: absolute;
+    top: 39px;
+    left: 1335px;
+    z-index: 14;
+    width: 95px;
+    height: 100px;
+}
+
+.edu{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    color: rgb(9, 68, 70);
+    position: absolute;
+    top: 1683px;
+    left: 710px;
+    z-index: 12;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.edu::before, .edu::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(180, 172, 10);
+    display: block;
+}
+
+
+.edu2{
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(255, 210, 210);
+    position: absolute;
+    top: 1800px;
+    left: 565px;
+}
+#edhead{
+    font-family: 'Headland One', serif;
+}
+
+#eddetails,#cgpa{
+    font-family: 'Caveat', cursive;
+}
+
+.projects{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    color: rgb(9, 68, 70);
+    position: absolute;
+    top: 2335px;
+    left: 715px;
+    z-index: 12;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.projects::before, .projects::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(180, 172, 10);
+    display: block;
+}
+
+.pro2{
+    border: 2px solid;
+    height: 330px;
+    width: 600px;
+    text-align: center;
+    background-color: rgb(98, 185, 209);
+    position: absolute;
+    top: 2454px;
+    left: 485px;
+}
+
+#ptopic{
+    font-family: 'Headland One', serif;
+}
+
+#pdetail{
+    font-family: 'Caveat', cursive;
+}
+
+#abc{
+    color: black;
+}
+
+#abc a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    font-family: 'Peralta', cursive;
+    color: rgb(9, 68, 70);
+    position: absolute;
+    top: 2860px;
+    left: 700px;
+    z-index: 12;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.contact::before, .contact::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(180, 172, 10);
+    display: block;
+}
+
+.map{
+    border: 2px solid;
+    z-index: 15;
+    position: absolute;
+    top: 530px;
+    left: -190px;
+}
+
+
+.frame-border{
+    border: 2px solid black;
+}
+
+.container2{
+    position: absolute;
+    top: 2977px;
+    left: 835px;
+    z-index: 20;
+    border: 2px solid black;
+    position: absolute;
+    background-color: rgb(241, 241, 183);
+    padding: 20px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    
+    position: absolute;
+    left: 560px;
+    top: 3380px;
+    border: 2px solid;
+    background-color: rgb(221, 234, 84);
+    width: 360px;
+    height: 220px;
+    z-index: 20;
+    padding: 10px;
+    
+}
+
+.inputbox{
+    margin: 4px;
+}
+
+footer{
+    border: 2px solid black;
+    padding: 20px;
+    z-index: 200;
+    width: 99.5%;
+    height: 25px;
+    background-color: #fff;
+    color: white;
+}
+
+
+
+
+
+
